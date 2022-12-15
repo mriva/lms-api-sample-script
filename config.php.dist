@@ -1,0 +1,6 @@
+<?php
+const API_KEY = "changeme";
+const API_SECRET = "changeme";
+const API_URL = "https://changeme";
+const TEST_USER_NAME = "";
+const TEST_USER_PASSWORD = "";

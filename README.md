@@ -1,0 +1,4 @@
+- clonare il repository
+- lanciare `composer install`
+- copiare `config.php.dist` in `config.php` e compilare i campi con valori reali
+- lanciare `php create_user.php`
