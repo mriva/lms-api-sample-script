@@ -21,6 +21,17 @@ class LmsApi
         return $this->authCall($apiMethod, $params);
     }
 
+    public function suspendUser($idst)
+    {
+        $apiMethod = 'user/edit';
+        $params = [
+            'idst' => $idst,
+            'valid' => 0,
+        ];
+
+        return $this->authCall($apiMethod, $params);
+    }
+
     private function authCall($apiMethod, $params)
     {
         $codice_sha1 = strtolower(sha1(implode(',', $params) . ',' . API_SECRET));
