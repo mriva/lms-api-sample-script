@@ -2,4 +2,4 @@
 - lanciare `composer install`
 - copiare `config.php.dist` in `config.php` e compilare i campi con valori reali
 - lanciare `php create_user.php`; la chiamata API restituisce un oggetto che contiene il campo `idst`: questo è l'id dell'utente creato
-- per sospendere un utente lanciar `php suspend_user.php <idst>` usando un `idst` restituito dalla `create_user`
+- per sospendere un utente lanciare `php suspend_user.php <idst>` usando un `idst` restituito dalla `create_user`
