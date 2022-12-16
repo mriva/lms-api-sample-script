@@ -58,5 +58,4 @@ $response = $api->createUser([
     '_customfields[17]' => '10442520960',
 ]);
 
-
 print_r($response);
