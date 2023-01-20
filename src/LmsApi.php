@@ -21,6 +21,16 @@ class LmsApi
         return $this->authCall($apiMethod, $params);
     }
 
+    public function userDetails($idst)
+    {
+        $apiMethod = 'user/userdetails';
+        $params = [
+            'idst' => $idst,
+        ];
+
+        return $this->authCall($apiMethod, $params);
+    }
+
     public function suspendUser($idst)
     {
         $apiMethod = 'user/edit';
